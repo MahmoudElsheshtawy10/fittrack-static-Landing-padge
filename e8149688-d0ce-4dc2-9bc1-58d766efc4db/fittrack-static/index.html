@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FitTrack — The smart fitness app that helps you track workouts, monitor nutrition, and build lasting healthy habits." />
+  <meta property="og:title" content="FitTrack — Achieve Your Fitness Goals" />
+  <meta property="og:description" content="Track workouts, monitor nutrition, and build healthy habits with FitTrack." />
+  <title>FitTrack — Achieve Your Fitness Goals</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#" class="navbar__logo" aria-label="FitTrack home">
+        <svg width="36" height="28" viewBox="0 0 36 28" fill="none" aria-hidden="true">
+          <rect x="0" y="9" width="7" height="10" rx="2" fill="#4f9cf9"/>
+          <rect x="9" y="4" width="7" height="20" rx="2" fill="#4f9cf9"/>
+          <rect x="18" y="0" width="7" height="28" rx="2" fill="#4f9cf9"/>
+          <rect x="27" y="7" width="9" height="14" rx="2" fill="#4f9cf9"/>
+        </svg>
+        <span>FitTrack</span>
+      </a>
+
+      <nav class="navbar__menu" id="navMenu" aria-label="Main navigation">
+        <ul class="navbar__list">
+          <li><a href="#features" class="navbar__link">Workouts</a></li>
+          <li><a href="#features" class="navbar__link">Nutrition</a></li>
+          <li><a href="#features" class="navbar__link">Progress</a></li>
+          <li><a href="#pricing" class="navbar__link">Pricing</a></li>
+        </ul>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="#" class="btn btn--yellow">Login</a>
+        <a href="#" class="btn btn--blue">Start for Free <span aria-hidden="true">→</span></a>
+      </div>
+
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Achieve Your Fitness Goals with FitTrack</h1>
+          <p class="hero__desc">
+            The smart fitness app that helps you track workouts, monitor nutrition,
+            and build lasting healthy habits — all in one place.
+          </p>
+          <a href="#" class="btn btn--blue btn--lg">Start for Free <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__mockup">
+            <div class="hero__mockup-screen">
+              <div class="mockup-stat"><span class="mockup-stat__label">Today's Steps</span><span class="mockup-stat__value">8,432</span></div>
+              <div class="mockup-stat"><span class="mockup-stat__label">Calories Burned</span><span class="mockup-stat__value">620 kcal</span></div>
+              <div class="mockup-bar-wrap">
+                <span class="mockup-stat__label">Weekly Workouts</span>
+                <div class="mockup-bars">
+                  <div class="mockup-bar" style="height:40%"></div>
+                  <div class="mockup-bar" style="height:70%"></div>
+                  <div class="mockup-bar mockup-bar--active" style="height:100%"></div>
+                  <div class="mockup-bar" style="height:55%"></div>
+                  <div class="mockup-bar" style="height:85%"></div>
+                  <div class="mockup-bar" style="height:30%"></div>
+                  <div class="mockup-bar" style="height:60%"></div>
+                </div>
+              </div>
+              <div class="mockup-ring-wrap">
+                <div class="mockup-ring"><span>75%</span><small>Goal</small></div>
+                <div class="mockup-ring mockup-ring--yellow"><span>92%</span><small>Protein</small></div>
+                <div class="mockup-ring mockup-ring--green"><span>60%</span><small>Water</small></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TRUSTED BRANDS ========== -->
+    <section class="brands">
+      <div class="container">
+        <p class="brands__label">Trusted by leading fitness brands</p>
+        <div class="brands__logos">
+          <span class="brands__logo">Nike Training</span>
+          <span class="brands__logo">Adidas</span>
+          <span class="brands__logo">MyFitnessPal</span>
+          <span class="brands__logo">Garmin</span>
+          <span class="brands__logo">Apple Health</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FEATURES — Track Every Workout ========== -->
+    <section class="feature" id="features">
+      <div class="container feature__inner">
+        <div class="feature__text">
+          <h2 class="section-title">Track Every Workout</h2>
+          <p class="section-desc">
+            Log every set, rep, and rest with precision. FitTrack supports strength, cardio,
+            HIIT, yoga, and more. View detailed analytics, personal records, and weekly
+            summaries to stay motivated.
+          </p>
+          <a href="#" class="btn btn--blue">Get Started <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="feature__visual" aria-hidden="true">
+          <div class="feature__card-wrap">
+            <div class="feature__stat-card">
+              <div class="fcard__icon fcard__icon--blue">💪</div>
+              <div><div class="fcard__title">Push Day Complete</div><div class="fcard__sub">48 min · 12 exercises · PR broken</div></div>
+            </div>
+            <div class="feature__stat-card">
+              <div class="fcard__icon fcard__icon--yellow">🔥</div>
+              <div><div class="fcard__title">Calories Burned</div><div class="fcard__sub">480 kcal this session</div></div>
+            </div>
+            <div class="feature__stat-card">
+              <div class="fcard__icon fcard__icon--green">📈</div>
+              <div><div class="fcard__title">Bench Press PR</div><div class="fcard__sub">100 kg · +5 kg this week</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FEATURES — Build Healthy Habits ========== -->
+    <section class="feature feature--reverse">
+      <div class="container feature__inner">
+        <div class="feature__visual" aria-hidden="true">
+          <div class="habit-grid">
+            <div class="habit-item habit-item--done">Mon<span>✓</span></div>
+            <div class="habit-item habit-item--done">Tue<span>✓</span></div>
+            <div class="habit-item habit-item--done">Wed<span>✓</span></div>
+            <div class="habit-item habit-item--done">Thu<span>✓</span></div>
+            <div class="habit-item">Fri<span></span></div>
+            <div class="habit-item">Sat<span></span></div>
+            <div class="habit-item">Sun<span></span></div>
+            <div class="habit-streak">🔥 4-Day Streak!</div>
+            <div class="habit-goal"><div class="habit-goal__bar" style="width:68%"></div><span>Daily Steps: 6,800 / 10,000</span></div>
+            <div class="habit-goal"><div class="habit-goal__bar habit-goal__bar--blue" style="width:90%"></div><span>Water: 1.8L / 2L</span></div>
+            <div class="habit-goal"><div class="habit-goal__bar habit-goal__bar--yellow" style="width:78%"></div><span>Sleep: 7h / 8h</span></div>
+          </div>
+        </div>
+        <div class="feature__text">
+          <h2 class="section-title">Build Healthy Habits</h2>
+          <p class="section-desc">
+            Set daily goals for steps, water intake, sleep, and active minutes.
+            FitTrack's smart reminders and streak tracking keep you consistent
+            and on the path to lasting results.
+          </p>
+          <a href="#" class="btn btn--blue">Try it now <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FEATURES — Personalise Plan ========== -->
+    <section class="feature">
+      <div class="container feature__inner">
+        <div class="feature__text">
+          <h2 class="section-title">Personalise your training plan</h2>
+          <p class="section-desc">
+            Build a custom workout routine tailored to your goals — whether it's weight loss,
+            muscle gain, or endurance. Choose from 500+ exercises and adjust intensity, sets,
+            and rest times to fit your schedule.
+          </p>
+          <a href="#" class="btn btn--blue">Build My Plan <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="feature__visual" aria-hidden="true">
+          <div class="plan-card">
+            <div class="plan-card__header">My Training Plan</div>
+            <div class="plan-card__day">
+              <span class="plan-card__day-label">Monday</span>
+              <span class="plan-card__tag plan-card__tag--blue">Chest & Triceps</span>
+            </div>
+            <div class="plan-card__day">
+              <span class="plan-card__day-label">Wednesday</span>
+              <span class="plan-card__tag plan-card__tag--green">Back & Biceps</span>
+            </div>
+            <div class="plan-card__day">
+              <span class="plan-card__day-label">Friday</span>
+              <span class="plan-card__tag plan-card__tag--yellow">Legs & Core</span>
+            </div>
+            <div class="plan-card__day">
+              <span class="plan-card__day-label">Saturday</span>
+              <span class="plan-card__tag">Cardio 30 min</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== YOUR DATA ========== -->
+    <section class="data-section">
+      <div class="container data-section__inner">
+        <div class="data-section__text">
+          <h2 class="section-title">Your health data is yours</h2>
+          <p class="section-desc">
+            FitTrack uses end-to-end encryption to keep your personal health and fitness
+            data completely private. We never sell your data. Export your history anytime
+            in open formats — it's yours, always.
+          </p>
+          <a href="#" class="btn btn--blue">Learn more <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="data-section__visual" aria-hidden="true">
+          <div class="shield-wrap">
+            <div class="shield">
+              <div class="shield__icon">🔒</div>
+              <div class="shield__title">End-to-End Encrypted</div>
+              <div class="shield__sub">Your data never leaves your control</div>
+            </div>
+            <div class="shield-badges">
+              <span class="shield-badge">GDPR Compliant</span>
+              <span class="shield-badge">HIPAA Ready</span>
+              <span class="shield-badge">Export Anytime</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PRICING ========== -->
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="pricing__header">
+          <h2 class="section-title text-center">Choose Your Plan</h2>
+          <p class="section-desc text-center">
+            Whether you're just starting out or training like a professional,
+            FitTrack has a plan designed to get you real results.
+          </p>
+        </div>
+        <div class="pricing__grid">
+
+          <!-- Starter -->
+          <div class="pricing-card">
+            <div class="pricing-card__top">
+              <h3 class="pricing-card__name">Starter</h3>
+              <div class="pricing-card__price">$0<span>/mo</span></div>
+              <p class="pricing-card__desc">Begin your fitness journey for free</p>
+            </div>
+            <ul class="pricing-card__features">
+              <li>✔ Up to 3 workout logs per day</li>
+              <li>✔ Basic exercise library (150+ exercises)</li>
+              <li>✔ Step &amp; calorie counter</li>
+              <li>✔ Weekly progress summary</li>
+              <li>✔ Water intake tracker</li>
+              <li>✔ Community challenges access</li>
+            </ul>
+            <a href="#" class="btn btn--outline btn--full">Get Started</a>
+          </div>
+
+          <!-- Pro (highlighted) -->
+          <div class="pricing-card pricing-card--featured">
+            <div class="pricing-card__badge">Most Popular</div>
+            <div class="pricing-card__top">
+              <h3 class="pricing-card__name">Pro</h3>
+              <div class="pricing-card__price">$9.99<span>/mo</span></div>
+              <p class="pricing-card__desc">Everything you need to reach your goals</p>
+            </div>
+            <ul class="pricing-card__features">
+              <li>✔ Unlimited workout logging</li>
+              <li>✔ Full exercise library (500+ exercises)</li>
+              <li>✔ AI-powered meal &amp; macro tracker</li>
+              <li>✔ Custom workout plan builder</li>
+              <li>✔ Advanced analytics &amp; body metrics</li>
+              <li>✔ Smart reminders &amp; habit streaks</li>
+            </ul>
+            <a href="#" class="btn btn--blue btn--full">Get Started</a>
+          </div>
+
+          <!-- Elite -->
+          <div class="pricing-card">
+            <div class="pricing-card__top">
+              <h3 class="pricing-card__name">Elite</h3>
+              <div class="pricing-card__price">$24.99<span>/mo</span></div>
+              <p class="pricing-card__desc">For serious athletes and coaches</p>
+            </div>
+            <ul class="pricing-card__features">
+              <li>✔ Everything in Pro</li>
+              <li>✔ Manage up to 20 athlete clients</li>
+              <li>✔ Wearable device sync (Apple Watch, Garmin)</li>
+              <li>✔ Video exercise form analysis</li>
+              <li>✔ Priority 24/7 support</li>
+              <li>✔ Custom branding for coaches</li>
+            </ul>
+            <a href="#" class="btn btn--outline btn--full">Get Started</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TRAIN ANYWHERE ========== -->
+    <section class="cta-banner">
+      <div class="container cta-banner__inner">
+        <h2 class="cta-banner__title">Train Anywhere, Anytime</h2>
+        <p class="cta-banner__desc">
+          Take FitTrack with you wherever you go. Available on iOS and Android with
+          offline mode — so you can log your workouts at the gym, outdoors, or at home
+          without missing a beat.
+        </p>
+        <a href="#download" class="btn btn--blue btn--lg">Download the App <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <h2 class="section-title text-center">Real Results from Real People</h2>
+        <div class="testimonials__grid">
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__avatar">S</div>
+            <p class="testimonial-card__quote">
+              "FitTrack completely changed how I approach fitness. The workout logging is
+              seamless and the progress charts keep me motivated every single day.
+              I've lost 12 kg in 4 months!"
+            </p>
+            <div class="testimonial-card__footer">
+              <div>
+                <strong>Sara Al-Hassan</strong>
+                <span>Marathon Runner, Riyadh</span>
+              </div>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card testimonial-card--blue">
+            <div class="testimonial-card__avatar testimonial-card__avatar--white">A</div>
+            <p class="testimonial-card__quote">
+              "The nutrition tracker is incredibly easy to use. I can scan barcodes,
+              search meals, and hit my macros without any hassle. FitTrack is the only
+              fitness app I've stuck with for over a year."
+            </p>
+            <div class="testimonial-card__footer">
+              <div>
+                <strong>Ahmed Khalid</strong>
+                <span>Personal Trainer, Dubai</span>
+              </div>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card testimonial-card--blue">
+            <div class="testimonial-card__avatar testimonial-card__avatar--white">L</div>
+            <p class="testimonial-card__quote">
+              "I've tried every fitness app out there and FitTrack is by far the best.
+              The habit tracker and smart reminders helped me build a consistent routine
+              I actually enjoy. Highly recommend!"
+            </p>
+            <div class="testimonial-card__footer">
+              <div>
+                <strong>Lina Mahmoud</strong>
+                <span>Yoga Instructor, Cairo</span>
+              </div>
+              <div class="stars" aria-label="5 stars">★★★★★</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== APP DOWNLOAD ========== -->
+    <section class="download" id="download">
+      <div class="container download__inner">
+        <div class="download__visual" aria-hidden="true">
+          <div class="download__phones">
+            <div class="download__phone download__phone--back">
+              <div class="phone-screen">
+                <div class="phone-screen__bar"></div>
+                <div class="phone-screen__bar phone-screen__bar--sm"></div>
+                <div class="phone-screen__circle"></div>
+              </div>
+            </div>
+            <div class="download__phone download__phone--front">
+              <div class="phone-screen">
+                <div class="phone-screen__label">Today's Workout</div>
+                <div class="phone-screen__bar"></div>
+                <div class="phone-screen__bar phone-screen__bar--sm"></div>
+                <div class="phone-screen__bar phone-screen__bar--sm"></div>
+                <div class="phone-screen__btn">Start Workout →</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="download__text">
+          <h2 class="section-title" style="color:#fff">Download FitTrack on iOS &amp; Android</h2>
+          <p class="section-desc" style="color:rgba(255,255,255,0.85)">
+            Get the full FitTrack experience on your phone. Log workouts, scan meals,
+            track sleep, and view your progress — all from the palm of your hand.
+            Free to download, premium features available.
+          </p>
+          <div class="download__buttons">
+            <a href="#" class="store-btn">
+              <span class="store-btn__icon">🍎</span>
+              <div><small>Download on the</small><strong>App Store</strong></div>
+            </a>
+            <a href="#" class="store-btn">
+              <span class="store-btn__icon">▶</span>
+              <div><small>Get it on</small><strong>Google Play</strong></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="navbar__logo navbar__logo--white" aria-label="FitTrack home">
+          <svg width="36" height="28" viewBox="0 0 36 28" fill="none" aria-hidden="true">
+            <rect x="0" y="9" width="7" height="10" rx="2" fill="#fff"/>
+            <rect x="9" y="4" width="7" height="20" rx="2" fill="#fff"/>
+            <rect x="18" y="0" width="7" height="28" rx="2" fill="#fff"/>
+            <rect x="27" y="7" width="9" height="14" rx="2" fill="#fff"/>
+          </svg>
+          <span>FitTrack</span>
+        </a>
+        <p>FitTrack helps people around the world achieve their fitness goals through smart tracking and personalised plans.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Product links">
+        <h3>Product</h3>
+        <ul>
+          <li><a href="#features" class="footer__link footer__link--highlight">Features</a></li>
+          <li><a href="#pricing" class="footer__link">Pricing</a></li>
+          <li><a href="#testimonials" class="footer__link">Success Stories</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__nav" aria-label="Resources links">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#" class="footer__link">Blog</a></li>
+          <li><a href="#" class="footer__link">Workout Library</a></li>
+          <li><a href="#" class="footer__link">Help Center</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__nav" aria-label="Company links">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#" class="footer__link">About Us</a></li>
+          <li><a href="#" class="footer__link">Careers</a></li>
+          <li><a href="#" class="footer__link">Press Kit</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__cta">
+        <h3>Start Training Today</h3>
+        <p>Free to start. Upgrade when you're ready to unlock your full potential.</p>
+        <a href="#" class="btn btn--blue">Download Free <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <div class="footer__legal">
+          <a href="#">Terms &amp; Privacy</a>
+          <a href="#">Security</a>
+          <a href="#">Status</a>
+          <span>©2024 FitTrack Inc.</span>
+        </div>
+        <div class="footer__social" aria-label="Social media">
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
